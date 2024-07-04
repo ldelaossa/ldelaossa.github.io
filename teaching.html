@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching - Professor [Your Name]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .fancy-divider {
+            width: 60px;
+            height: 3px;
+            background-color: #555;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="page-navbar"></div>
+
+    <div class="container mt-5">
+        <div id="content">
+            <h1>Teaching</h1>
+            <div class="fancy-divider"></div>
+            <h2>Current Courses</h2>
+            <ul>
+                <li><strong>Bioinformatics and Big Data</strong> - Degree in Biotechnology</li>
+                <li><strong>Programming Methodology</strong> - Degree in Computer Sciences</li>
+            </ul>
+            <h2>Past Courses</h2>
+            <ul>
+                <li><strong>Intelligent Systems Development</strong> - Master in Computer Engineering - 2016/2024</li>
+                <li><strong>Intelligent Systems</strong> - Degree in Computer Sciences - 2015/2020</li>
+                <li><strong>Fundamentals of Programming I</strong> - Degree in Computer Sciences - 2014/2017</li>
+                <li><strong>Algorithm Design</strong> - Degree in Computer Sciences - 2010/2016</li>
+                <li><strong>Data Mining</strong> - Degree in Computer Sciences - 2010/2015</li>
+                <li><strong>Knowledge Engineering</strong> - Computer Engineering - 2004/2010</li>
+                <li><strong>Computer Systems Operations </strong> - Computer Engineering - 2003/2010</li>
+            </ul>
+            <h2>UCLM Own Programs</h2>
+            <p>Since 2020, I have been the director of <a href="http://www.cidaen.es" target="_blank">CIDaeN</a>, the Master's in Data Science and Cloud Data Engineering at UCLM, where I have taught modules on data exploration, advanced machine learning, and text mining.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="page-footer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function() {
+            $("#page-navbar").load("page-navbar.html", function() {
+                $("#teaching").addClass("active");
+            });
+            $("#page-footer").load("footer.html");
+        });
+    </script>
+</body>
+</html>

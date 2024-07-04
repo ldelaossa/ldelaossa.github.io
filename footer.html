@@ -1,0 +1,17 @@
+<footer class="text-center mt-5 py-3">
+    <div class="container">
+        <ul class="social-icons d-flex justify-content-center">
+            <li><a class="text-dark" href="https://github.com/ldelaossa" target="_blank" aria-label="GitHub"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a class="text-dark" href="https://twitter.com/ldelaossa" target="_blank" aria-label="Twitter"><i class="fab fa-twitter fa-2x"></i></a></li>
+            <li><a class="text-dark" href="https://www.linkedin.com/in/luisdelaossa/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a class="text-dark" href="https://scholar.google.com/citations?user=sCxf1jEAAAAJ" target="_blank" aria-label="Google Scholar"><i class="fab fa-google fa-2x"></i></a></li>
+        </ul>
+        <p class="text-dark mt-3" style="font-family: 'Playfair Display', serif;">&copy; <span id="footer-year"></span> Luis de la Ossa Jiménez. All rights reserved.</p>
+    </div>
+</footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
+    });
+</script>
+

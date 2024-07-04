@@ -1,0 +1,201 @@
+/* General body styling */
+body {
+    font-family: 'Source Serif Pro', serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #fff !important;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem; /* Match font size of menu elements */
+    color: #555 !important; /* Match color of menu elements */
+}
+
+.navbar-brand:hover {
+    color: #007bff !important; /* Hover color to match menu elements hover color */
+}
+
+.nav-link {
+    font-family: 'Playfair Display', serif;
+    color: #555 !important;
+}
+
+/* Content styling */
+#content {
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+
+/* Footer styling */
+footer {
+    font-size: 0.9rem;
+    color: #666;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Social icons styling */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Utility classes */
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-dark {
+    color: #343a40 !important;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.text-light {
+    color: #f8f9fa !important;
+}
+
+/* Separator styling */
+.separator {
+    border-top: 1px solid #ddd;
+    margin: 1rem 0;
+}
+
+/* Accordion button styling to make it more elegant */
+.accordion-button {
+    font-family: 'Playfair Display', serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #333;
+    background-color: #e9ecef;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    font-family: 'Source Serif Pro', serif;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-top: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+/* Larger font size for the main list */
+.publication-list {
+    font-size: 1.1rem;
+}
+
+/* Fancy divider styling */
+.fancy-divider {
+    width: 200px;
+    height: 3px;
+    background-color: #555;
+    margin: 40px auto;
+}
+
+/* Profile image styling */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25%;
+}
+
+/* Contact info styling */
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Added padding to space the left part from the text */
+.ps-md-5 {
+    padding-left: 3rem !important;
+}
+
+/* Project panel styling */
+.panel {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+}
+
+.panel-heading {
+    padding: 0;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.panel-body {
+    padding: 15px;
+}
